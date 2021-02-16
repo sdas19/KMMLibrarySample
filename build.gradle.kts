@@ -76,6 +76,9 @@ kotlin {
         val iosTest by getting
     }
 }
+
+configurePublishing()
+
 android {
     compileSdkVersion(29)
     defaultConfig {
