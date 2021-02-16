@@ -1,14 +1,21 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
+import java.lang.System.getenv
+import org.gradle.api.*
+import org.gradle.api.credentials.PasswordCredentials
+import org.gradle.api.publish.PublishingExtension
+import org.gradle.kotlin.dsl.*
 
 plugins {
     kotlin("multiplatform") version "1.4.10"
     kotlin("plugin.serialization") version "1.4.20"
     id("com.android.library")
     id("kotlin-android-extensions")
+    `maven-publish`
 }
-group = "me.soumyajitdas"
-version = "1.0-SNAPSHOT"
-val archivesBaseName = "Sample_KMM_Module-${version}"
+
+group = System.getenv("GITHUB_REPOSITORY")?.split('/')?.first()?.plus(".me.soumyajitdas") ?: "me.soumyajitdas"
+version = System.getenv("GITHUB_REF")?.split('/')?.last() ?: "1.0-development"
+val archivesBaseName = "${group}-${version}"
 
 repositories {
     gradlePluginPortal()
@@ -18,7 +25,9 @@ repositories {
 }
 
 kotlin {
-    android()
+    android {
+        publishLibraryVariants("release")
+    }
     ios {
         binaries {
             framework {
@@ -82,6 +91,23 @@ android {
         }
     }
 }
+
+fun Project.configurePublishing() {
+    getenv("GITHUB_REPOSITORY")?.let {
+        publishingExtension {
+            repositories {
+                maven {
+                    name = "github"
+                    url = uri("https://maven.pkg.github.com/$it")
+                    credentials(PasswordCredentials::class)
+                }
+            }
+        }
+    }
+}
+
+inline fun Project.publishingExtension(crossinline block: PublishingExtension.() -> Unit) =
+    extensions.configure(PublishingExtension::class) { block() }
 
 val packForXcode by tasks.creating(Sync::class) {
     group = "build"

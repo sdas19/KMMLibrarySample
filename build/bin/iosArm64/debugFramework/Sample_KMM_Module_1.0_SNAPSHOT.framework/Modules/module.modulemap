@@ -1,6 +1,0 @@
-framework module Sample_KMM_Module_1.0_SNAPSHOT {
-    umbrella header "Sample_KMM_Module_1.0_SNAPSHOT.h"
-
-    export *
-    module * { export * }
-}

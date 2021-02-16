@@ -1,14 +1,14 @@
 [
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-2/files-2.1/d585b205bfb500d9b092428ecc47a387/core-1.2.0/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/layout/custom_dialog.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-2/files-2.1/d585b205bfb500d9b092428ecc47a387/core-1.2.0/res/layout/custom_dialog.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/layout/custom_dialog.xml"
     },
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-2/files-2.1/d585b205bfb500d9b092428ecc47a387/core-1.2.0/res/layout/notification_template_part_time.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/layout/notification_template_part_time.xml"
     }
 ]

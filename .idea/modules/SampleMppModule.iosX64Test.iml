@@ -8,11 +8,11 @@
           <dependsOn>SampleMppModule:iosTest</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>SampleMppModule.iosMain</sourceSet>
-          <sourceSet>SampleMppModule.commonMain</sourceSet>
           <sourceSet>SampleMppModule.iosX64Main</sourceSet>
           <sourceSet>SampleMppModule.commonTest</sourceSet>
+          <sourceSet>SampleMppModule.iosMain</sourceSet>
           <sourceSet>SampleMppModule.iosTest</sourceSet>
+          <sourceSet>SampleMppModule.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>

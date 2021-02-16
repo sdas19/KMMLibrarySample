@@ -4,7 +4,7 @@
             "outputFile": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "/Users/soumyajitdas/.gradle/caches/transforms-2/files-2.1/d585b205bfb500d9b092428ecc47a387/core-1.2.0/res/values-gu/values-gu.xml",
+                    "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "/Users/soumyajitdas/.gradle/caches/transforms-2/files-2.1/d585b205bfb500d9b092428ecc47a387/core-1.2.0/res/values-gu/values-gu.xml",
+                    "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
