@@ -13,5 +13,5 @@ pluginManagement {
         }
     }
 }
-rootProject.name = "SampleMppModule"
+rootProject.name = "sampleMppModule"
 

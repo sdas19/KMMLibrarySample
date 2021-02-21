@@ -4,13 +4,42 @@
     <list default="true" id="306341b4-42bc-4501-bc79-a843a4ca7039" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosArm64Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosArm64Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosX64Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosX64Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidAndroidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidAndroidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidAndroidTestDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidAndroidTestDebug.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidDebug.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidDebugAndroidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidDebugAndroidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidDebugUnitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidDebugUnitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidRelease.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidRelease.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidReleaseUnitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidReleaseUnitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidTestDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidTestDebug.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.androidTestRelease.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.androidTestRelease.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.commonMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.commonMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.commonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosArm64Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosArm64Main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosArm64Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosArm64Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosX64Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosX64Main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SampleMppModule.iosX64Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sampleMppModule.iosX64Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/iosArm64/main/SampleMppModule.klib" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/iosArm64/main/SampleMppModule.klib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/iosX64/main/SampleMppModule.klib" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/iosX64/main/SampleMppModule.klib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar/release/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar/release/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_java_res/release/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_java_res/release/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlinAndroid/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlinAndroid/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileDebugKotlinAndroid/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileDebugKotlinAndroid/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileReleaseKotlinAndroid/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileReleaseKotlinAndroid/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileReleaseKotlinAndroid/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileReleaseKotlinAndroid/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/lint-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/lint-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +62,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SampleMppModule" type="f1a62948:ProjectNode" />
+                <item name="sampleMppModule" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SampleMppModule" type="f1a62948:ProjectNode" />
+                <item name="sampleMppModule" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SampleMppModule" type="f1a62948:ProjectNode" />
+                <item name="sampleMppModule" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SampleMppModule" type="f1a62948:ProjectNode" />
+                <item name="sampleMppModule" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="publishing" type="c8890929:TasksNode$1" />
               </path>
@@ -183,22 +212,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="577" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1611600059336" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1613901770565">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1613904701918">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1613901770565" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1613901770564">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1613904701918" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1613904701917">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1613901770564" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1613901770564">
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1613904701917" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1613904701917">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1613901770564" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1613901770565">
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1613904701917" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1613904701918">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1613901770565" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1613904701918" />
     <state x="349" y="175" key="SettingsEditor" timestamp="1611597254851">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -211,9 +240,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="496" y="371" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1613894609492" />
-    <state x="503" y="300" width="673" height="472" key="find.popup" timestamp="1613504136260">
+    <state x="503" y="300" width="673" height="472" key="find.popup" timestamp="1613905214921">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="503" y="300" width="673" height="472" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1613504136260" />
+    <state x="503" y="300" width="673" height="472" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1613905214921" />
   </component>
 </project>

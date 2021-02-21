@@ -2,14 +2,16 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []/Native [general]" useProjectSettings="false" isTestModule="false" externalProjectId="SampleMppModule">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="sampleMppModule">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
         <compilerArguments>
           <option name="languageVersion" value="1.4" />
           <option name="apiVersion" value="1.4" />
           <option name="pluginOptions">
-            <array />
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:configuration=rO0ABXffAAAAAwAIZmVhdHVyZXMAAAABAA92aWV3cyxwYXJjZWxpemUAB3BhY2thZ2UAAAABABdtZS5zb3VteWFqaXRkYXMuYW5kcm9pZAAHdmFyaWFudAAAAAEAh21haW47L1VzZXJzL3NvdW15YWppdGRhcy9JZGVhUHJvamVjdHMvU2FtcGxlTXBwTW9kdWxlL3NyYy9tYWluL3JlczsvVXNlcnMvc291bXlhaml0ZGFzL0lkZWFQcm9qZWN0cy9TYW1wbGVNcHBNb2R1bGUvc3JjL2FuZHJvaWRNYWluL3Jlcw==" />
+            </array>
           </option>
           <option name="pluginClasspaths">
             <array>

@@ -2,10 +2,10 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native (ios_arm64) " allPlatforms="Native []/Native [ios_arm64]" useProjectSettings="false" isTestModule="false" externalProjectId="SampleMppModule">
+      <configuration version="3" platform="Native (ios_x64) " allPlatforms="Native []/Native [ios_x64]" useProjectSettings="false" isTestModule="false" externalProjectId="sampleMppModule">
         <dependsOnModuleNames>
-          <dependsOn>SampleMppModule:commonMain</dependsOn>
-          <dependsOn>SampleMppModule:iosMain</dependsOn>
+          <dependsOn>sampleMppModule:commonMain</dependsOn>
+          <dependsOn>sampleMppModule:iosMain</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
           <sourceSet>SampleMppModule.commonMain</sourceSet>
