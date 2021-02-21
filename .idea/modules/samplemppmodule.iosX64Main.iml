@@ -2,17 +2,14 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native (ios_arm64) " allPlatforms="Native []/Native [ios_arm64]" useProjectSettings="false" isTestModule="true" externalProjectId="sampleMppModule">
+      <configuration version="3" platform="Native (ios_x64) " allPlatforms="Native []/Native [ios_x64]" useProjectSettings="false" isTestModule="false" externalProjectId="samplemppmodule">
         <dependsOnModuleNames>
-          <dependsOn>sampleMppModule:commonTest</dependsOn>
-          <dependsOn>sampleMppModule:iosTest</dependsOn>
+          <dependsOn>samplemppmodule:commonMain</dependsOn>
+          <dependsOn>samplemppmodule:iosMain</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>SampleMppModule.iosTest</sourceSet>
-          <sourceSet>SampleMppModule.iosMain</sourceSet>
-          <sourceSet>SampleMppModule.iosArm64Main</sourceSet>
-          <sourceSet>SampleMppModule.commonMain</sourceSet>
-          <sourceSet>SampleMppModule.commonTest</sourceSet>
+          <sourceSet>sampleMppModule.commonMain</sourceSet>
+          <sourceSet>sampleMppModule.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />

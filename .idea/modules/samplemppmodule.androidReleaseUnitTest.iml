@@ -2,13 +2,13 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="sampleMppModule">
-        <dependsOnModuleNames>sampleMppModule:commonTest</dependsOnModuleNames>
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="samplemppmodule">
+        <dependsOnModuleNames>samplemppmodule:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>SampleMppModule.androidTest</sourceSet>
-          <sourceSet>SampleMppModule.androidTestRelease</sourceSet>
-          <sourceSet>SampleMppModule.commonTest</sourceSet>
-          <sourceSet>SampleMppModule.commonMain</sourceSet>
+          <sourceSet>sampleMppModule.androidTest</sourceSet>
+          <sourceSet>sampleMppModule.androidTestRelease</sourceSet>
+          <sourceSet>sampleMppModule.commonTest</sourceSet>
+          <sourceSet>sampleMppModule.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings>
