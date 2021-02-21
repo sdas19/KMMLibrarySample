@@ -8,8 +8,8 @@
           <dependsOn>SampleMppModule:iosTest</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>SampleMppModule.commonTest</sourceSet>
           <sourceSet>SampleMppModule.iosX64Main</sourceSet>
+          <sourceSet>SampleMppModule.commonTest</sourceSet>
           <sourceSet>SampleMppModule.iosTest</sourceSet>
           <sourceSet>SampleMppModule.commonMain</sourceSet>
           <sourceSet>SampleMppModule.iosMain</sourceSet>

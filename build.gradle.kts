@@ -4,10 +4,14 @@ import org.gradle.api.*
 import org.gradle.api.credentials.PasswordCredentials
 import org.gradle.api.publish.PublishingExtension
 import org.gradle.kotlin.dsl.*
+import org.jetbrains.kotlin.gradle.plugin.cocoapods.*
+import org.jetbrains.kotlin.gradle.dsl.*
+
 
 plugins {
     kotlin("multiplatform") version "1.4.10"
     kotlin("plugin.serialization") version "1.4.20"
+    id("org.jetbrains.kotlin.native.cocoapods") version "1.4.30-RC"
     id("com.android.library")
     id("kotlin-android-extensions")
     `maven-publish`
@@ -16,6 +20,7 @@ plugins {
 group = System.getenv("GITHUB_REPOSITORY")?.split('/')?.first()?.plus(".me.soumyajitdas") ?: "me.soumyajitdas"
 version = System.getenv("GITHUB_REF")?.split('/')?.last() ?: "1.0-development"
 val archivesBaseName = "${group}-${version}"
+//val Project.xcodeproj get() = property("xcodeproj") as String
 
 repositories {
     gradlePluginPortal()
@@ -28,12 +33,14 @@ kotlin {
     android {
         publishLibraryVariants("release")
     }
-    ios {
-        binaries {
-            framework {
-                baseName = archivesBaseName
-            }
-        }
+    ios()
+    cocoapods {
+        summary = "A Kotlin MPP Cocoapods Template Library"
+        homepage = "https://www.github.com/${getenv("GITHUB_REPOSITORY")}"
+
+        //podfile = rootProject.file("$xcodeproj/Podfile")
+
+        ios.deploymentTarget = "13.5"
     }
     sourceSets {
         val coroutinesVersion = "1.4.1-native-mt"
@@ -77,6 +84,13 @@ kotlin {
     }
 }
 
+tasks.register<Delete>("cleanPodBuild") {
+    arrayOf(buildDir, file("$name.podspec"), file("gen"), file("Pods")).let {
+        destroyables.register(it)
+        delete(it)
+    }
+}.also { tasks.named("clean").configure { dependsOn(it) } }
+
 configurePublishing()
 
 android {
@@ -108,6 +122,9 @@ fun Project.configurePublishing() {
         }
     }
 }
+
+inline fun KotlinMultiplatformExtension.cocoapods(crossinline block: CocoapodsExtension.() -> Unit) =
+    (this as ExtensionAware).extensions.configure(CocoapodsExtension::class) { block() }
 
 inline fun Project.publishingExtension(crossinline block: PublishingExtension.() -> Unit) =
     extensions.configure(PublishingExtension::class) { block() }

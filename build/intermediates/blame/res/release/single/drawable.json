@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/drawable/notification_bg.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/drawable/notification_bg.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/fb387e93400eaed547808fe16a123d33/transformed/core-1.2.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/drawable/notification_icon_background.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/fb387e93400eaed547808fe16a123d33/transformed/core-1.2.0/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/drawable/notification_bg_low.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/fb387e93400eaed547808fe16a123d33/transformed/core-1.2.0/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/soumyajitdas/IdeaProjects/SampleMppModule/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/6a273529f466bf21fdd014eab15a905d/transformed/core-1.2.0/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/soumyajitdas/.gradle/caches/transforms-3/fb387e93400eaed547808fe16a123d33/transformed/core-1.2.0/res/drawable/notification_tile_bg.xml"
     }
 ]

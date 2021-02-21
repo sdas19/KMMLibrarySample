@@ -15,7 +15,7 @@
         errorLine2="                         ~~">
         <location
             file="/Users/soumyajitdas/IdeaProjects/SampleMppModule/build.gradle.kts"
-            line="83"
+            line="100"
             column="26"/>
     </issue>
 
@@ -31,7 +31,7 @@
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/soumyajitdas/IdeaProjects/SampleMppModule/build.gradle.kts"
-            line="65"
+            line="72"
             column="33"/>
     </issue>
 

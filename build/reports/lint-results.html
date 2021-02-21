@@ -176,7 +176,7 @@ document.getElementById(id).style.display = 'none';
       <span class="mdl-layout-title">Lint Report: 2 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Wed Feb 17 01:10:12 IST 2021      </nav>
+Check performed at Sun Feb 21 15:36:39 IST 2021      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -223,14 +223,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:83</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
-<span class="lineno">  80 </span>    compileSdkVersion(29)
-<span class="lineno">  81 </span>    defaultConfig {
-<span class="lineno">  82 </span>        minSdkVersion(24)
-<span class="caretline"><span class="lineno">  83 </span>        targetSdkVersion(<span class="warning">29</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  84 </span>        versionCode = 1
-<span class="lineno">  85 </span>        versionName = "1.0"
-<span class="lineno">  86 </span>        setProperty("archivesBaseName", archivesBaseName)
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:100</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">  97 </span>    compileSdkVersion(29)
+<span class="lineno">  98 </span>    defaultConfig {
+<span class="lineno">  99 </span>        minSdkVersion(24)
+<span class="caretline"><span class="lineno"> 100 </span>        targetSdkVersion(<span class="warning">29</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 101 </span>        versionCode = 1
+<span class="lineno"> 102 </span>        versionName = "1.0"
+<span class="lineno"> 103 </span>        setProperty("archivesBaseName", archivesBaseName)
 </pre>
 
 </div>
@@ -274,14 +274,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:65</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.2.0 is available: 1.3.2</span><br /><pre class="errorlines">
-<span class="lineno">  62 </span>        }
-<span class="lineno">  63 </span>        val androidMain by getting {
-<span class="lineno">  64 </span>            dependencies {
-<span class="caretline"><span class="lineno">  65 </span>                implementation("<span class="warning">androidx.core:core-ktx:1.2.0</span>")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  66 </span>                implementation("io.ktor:ktor-client-android:$ktorVersion")
-<span class="lineno">  67 </span>                implementation ("io.ktor:ktor-client:$ktorVersion")
-<span class="lineno">  68 </span>            }
+<span class="location"><a href="../../build.gradle.kts">../../build.gradle.kts</a>:72</span>: <span class="message">A newer version of androidx.core:core-ktx than 1.2.0 is available: 1.3.2</span><br /><pre class="errorlines">
+<span class="lineno">  69 </span>        }
+<span class="lineno">  70 </span>        val androidMain by getting {
+<span class="lineno">  71 </span>            dependencies {
+<span class="caretline"><span class="lineno">  72 </span>                implementation("<span class="warning">androidx.core:core-ktx:1.2.0</span>")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  73 </span>                implementation("io.ktor:ktor-client-android:$ktorVersion")
+<span class="lineno">  74 </span>                implementation ("io.ktor:ktor-client:$ktorVersion")
+<span class="lineno">  75 </span>            }
 </pre>
 
 </div>
